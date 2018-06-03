@@ -15,7 +15,7 @@ python 中的dict在别的语言中也叫map，采用key-value 对的形式进�
 3.dict的key必须是不可变对象 
 '''
 
-d = {'amy':90, 'jack':80, 'jack':80}
+d = {'amy':90, 'jack':80, 'jack':80,'Michael':50, 'Sarah':80, 'Tracy':30, 'Bob':80}
 d['amy'] = 67#赋值
 d['amy'] #取值
 
@@ -29,6 +29,17 @@ d.get('Thomas', -1)
 
 #删除一个key ，可以用pop
 d.pop('amy')
+
+
+##字典的迭代
+#key迭代
+for key in d:
+    print key
+#key,value迭代
+for k,v in d.iteritems():
+    print k,v
+
+
 
 
 '''

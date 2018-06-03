@@ -59,7 +59,11 @@ s = ['python', 'java', ['asp', 'php'], 'scheme']
 ##清空list
 l = []
 
-
+##list切片
+names = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack', 'Amy', 'Tom', 'Jason']
+name1 = names[0:3]#从0开始，到3截止，不包括3
+name2 = names[:3]
+name3 = names[:6:2]#前6个数，每两个取一个
 
 '''
 有序列表:元组(tuple)
